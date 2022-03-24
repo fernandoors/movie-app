@@ -1,0 +1,52 @@
+https://docs.google.com/document/d/1Q08gq-Z70TvIaWtiOXnyo5tCBk_JSI0b5JG5KKH46jo/edit#
+https://www.figma.com/file/sjv8BtNtY7bLW3McH1ioDQ/Engineering-Assignment?node-id=0%3A1
+
+Project Summary
+Most of us can relate to kicking back on the couch and enjoying a movie with friends and family. In this project, you’ll build an app to allow users to discover the most popular movies playing.
+The purpose of this exercise is to give us an understanding of your capabilities around app architecture and UI implementation, and to have a project that we can collaborate on during the on-site portion of the interview. We do this so we have a chance to work together with you on something you’re already familiar with.
+
+There’s no time limit, but we’d prefer you don’t spend more than a few hours on it; we’re happy to discuss anything you didn’t get to do during our pair programming session.
+Building the backend
+In this stage you’ll build out some of the core APIs that will be used in your movie app.
+Your backend will:
+Have a database that will store the movie data (any database)
+Allow the app to retrieve a list of popular movies 
+Allow the app to retrieve more details about a specific movie
+Main Discovery Screen and a Details View
+In this stage you’ll build the core experience of your movies app. 
+Your app will:
+On the first load, present the user with a grid arrangement of popular movie posters.
+Allow the user to tap on a movie poster and transition to a details screen with additional
+information such as:
+original title
+movie poster image thumbnail
+A plot synopsis
+user rating
+release date
+Movie posters
+You will need to be able to display the movie poster images in the app.
+To make it easier, we recommend that you use images URLs from https://www.themoviedb.org/ 
+Some examples:
+https://image.tmdb.org/t/p/w440_and_h660_face/scZlQQYnDVlnpxFTxaIv2g0BWnL.jpg 
+https://image.tmdb.org/t/p/w440_and_h660_face/sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg
+https://image.tmdb.org/t/p/w440_and_h660_face/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg 
+UX Mockups
+The design guides and assets for this exercise have been uploaded to Figma
+https://www.figma.com/file/sjv8BtNtY7bLW3McH1ioDQ/Engineering-Assignment?node-id=0%3A1
+
+This guide should be used as a reference but you should make sure that your output will render well on all mobile devices (Android and iOS). 
+The desktop form-factor is out-of-scope for this project.
+Submitting the Project
+To submit the project push your git repository to the git hosting platform of your choice and send us the link to your repository. Please provide a project README in the repository that includes instructions on how to run the project.
+What are we looking for?
+This assignment is designed to evaluate how you would architect an app. The focus is less on how much functionality is completed, and more on how well the app is designed. Your choices of design patterns, frameworks and tooling is important. The following are examples of questions that we are expecting this project to answer:
+Do you follow best practices? 
+Do you write tests? 
+Which design patterns do you subscribe to? 
+
+Pair Programming and Code Walkthrough
+We will do a pair programming session on a variety of tasks using the code base that you submitted. 
+Here are some sample things you could expect:
+Code walkthrough – walk us through your code and the thinking behind the code. Answer a few questions
+Extend your code with a new problem – this gives us an insight into your problem solving skills
+

@@ -1,0 +1,27 @@
+# MOVIE BACKEND
+
+This project is the backend service for Movie App. 
+
+##### The project structure is:
+
+```bash
+├── src
+│   ├── config -> setups, middlewares and external libs
+│   ├── domain -> core of features with routers (manage http methods, middlewares and controllers) | controllers (to send dependencies for repository and services) | repository is an interface that link DB methods | service is the core of business rules.
+│   ├── drivers -> create server and routers
+│   └── test -> some utils for test
+└── package.json
+```
+
+
+## Quick start
+
+- Navigate for this folder:
+
+- Running it for dev environment:
+
+`docker-compose -f docker-compose.dev.yml up`
+
+- Running it for test environment:
+
+`npm test`
