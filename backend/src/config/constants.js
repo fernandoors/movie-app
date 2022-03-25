@@ -1,6 +1,6 @@
 const constants = {
   env: process.env.NODE_ENV,
-  port: parseInt(process.env.PORT || 3000),
+  port: parseInt(process.env.PORT || 3333),
   mongodb: {
     url: `mongodb://${process.env.MONGO_HOST}/movies`,
   },
