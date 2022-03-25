@@ -1,0 +1,47 @@
+# MOVIE BACKEND
+
+This project is the backend service for Movie App.
+
+##### The project structure is:
+
+```bash
+├── src
+│   ├── components
+│   ├── pages
+│   ├── services
+│   └── styles
+└── package.json
+```
+
+## Quick start
+
+1. Install Expo App on your Phone:
+2. Start the backend environment as described above:
+3. Change on MovieApp/service/api the IP to your machine IP:
+4. Navigate for this folder (MovieApp):
+5. Install Dependences:
+
+`npm install`
+
+6. Running mobile:
+
+`npm start`
+
+7. Open the Expo App and scan the QR-Code from Metro Bundler (The page openned after start this project):
+
+# Main Libraries
+
+```
+   "axios"
+   "expo"
+   "react"
+   "react-dom"
+   "@react-navigation"
+   "typescript"
+```
+
+
+## Mobile Views
+
+![MobileHome](../assets/mobile-home.jpeg)
+![MobileDetail](../assets/mobile-detail.jpeg)

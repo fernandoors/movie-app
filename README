@@ -1,0 +1,51 @@
+# MOVIE BACKEND
+
+This project is the backend service for Movie App.
+
+##### The project structure is:
+
+```bash
+├── backend
+├── frontend
+└── MovieApp -> Mobile
+```
+
+## Quick start Backend and Frontend
+
+1. Navigate for this folder:
+
+2. Running it for dev environment:
+
+`docker-compose -f docker-compose.dev.yml up`
+
+## Quick start Mobile
+
+1. Install Expo App on your Phone:
+
+2. Start the backend environment as described above:
+
+3. Change on MovieApp/service/api the IP to your machine IP:
+
+4. Navigate for MovieApp folder:
+
+5. Install Dependences:
+
+`npm install`
+
+6. Running mobile:
+
+`npm start`
+
+7. Open the Expo App and scan the QR-Code from Metro Bundler (The page openned after start this project):
+
+PS. Make sure that your mobile phone and the computer are in the same network environment and be possible to connect with each other.
+
+## Front End Views
+
+![FrontHome](assets/front-home.png)
+![FrontDetail](assets/front-detail.png)
+
+## Mobile Views
+
+![MobileHome](assets/mobile-home.jpeg)
+![MobileDetail](assets/mobile-detail.jpeg)
