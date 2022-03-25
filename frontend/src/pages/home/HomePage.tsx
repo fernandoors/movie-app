@@ -20,7 +20,7 @@ export default function HomePage() {
 
   return (
     <S.Container>
-      <h2>Welcome to Movie list</h2>
+      <h2>App Movies</h2>
       <S.Movies>
         {!!movies.length
           ? movies?.map((movie) => (
